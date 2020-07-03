@@ -29,7 +29,7 @@ public class GetPlaylistDataAsyncTask extends AsyncTask<String[], Void, Playlist
                     .list(YOUTUBE_PLAYLIST_PART)
                     //.setId(TextUtils.join(",", playlistIds))
                     .setFields(YOUTUBE_PLAYLIST_FIELDS)
-                    .setKey("AIzaSyDoqa6Bf7V96QX2qru5XLyc9xPavKYzl_0") //Here you will have to provide the keys
+                    .setKey(API_KEY) //Here you will have to provide the keys
                     .execute();
         } catch (IOException e) {
             e.printStackTrace();
