@@ -362,7 +362,7 @@ public class MainActivity extends Activity
                     .setMaxResults(25L)
                     .setMine(true)
                     //.setFields(YOUTUBE_PLAYLIST_FIELDS)
-                    .setKey("574361338659-8m4np9ef1us24csca96uavo098i7cltt.apps.googleusercontent.com") //Here you will have to provide the keys
+                    .setKey(ANOTHER_YOUTUBE_KEY) //Here you will have to provide the keys
                     .execute();
 
             List<Playlist> playlists = result.getItems();
